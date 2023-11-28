@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, c, densitate;
+    
+    cin >> a >> b >> c;
+    
+    densitate = a + b - c;
+    
+    densitate = b / densitate;
+    
+    cout << densitate;
+
+    return 0;
+}
